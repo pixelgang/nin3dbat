@@ -1,6 +1,6 @@
 ﻿{
 	"id": "com.operassdninja3dbattle",
-	"version": "2.6",
+	"version": "3.0",
 	"name": "Ninja 3D Battle",
 	"description": "Help Ninja defeat the Skeltons from the city.",
 	"author": "Tran Apps",
@@ -30,7 +30,7 @@
 		{ "id": "cordova-plugin-wkwebview-engine", "version": null }
 	],
 	"android": {
-		"min": 21,
+		"min": 23,
 		"target": 26,
 		"plugins": []
 	},
