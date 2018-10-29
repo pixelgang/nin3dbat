@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.operassdninja3dbattle" version="3.5" xmlns="http://www.w3.org/ns/widgets" xmlns:android = "http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.operassdninja3dbattle" version="3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android = "http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>Ninja 3D Battle</name>
 	<description>Help Ninja defeat the Skeltons from the city.</description>
 	<author href="http://tranapps.com" email="info@tranapps.com">Tran Apps</author>
@@ -7,7 +7,7 @@
 	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
 	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
 
-	<preference name="android-targetSdkVersion" value="27" />
+	<preference name="android-targetSdkVersion" value="26" />
 
 	<preference name="orientation" value="landscape" />
 	<preference name="fullscreen" value="true" />
@@ -18,20 +18,18 @@
 
 
 	<preference name="deployment-target" value="10.0" />
-	<preference name="android-minSdkVersion" value="21" />
+	<preference name="android-minSdkVersion" value="23" />
 	<access origin="*" />
 
 	<plugin name="cordova-custom-config" />
-
-	<plugin name="enhance-cordova-connector" />
-
 	<plugin name="cordova-plugin-file" />
+	<plugin name="enhance-cordova-connector" />
 	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-statusbar" />
-	
+	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-wkwebview-engine" />
 
 
-	
+	<engine name="ios" />
 	<engine name="android" />
 </widget>
